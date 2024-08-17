@@ -47,7 +47,7 @@ The following test cases are included and can be run using `pytest`:
 To run the tests, ensure you have `pytest` installed and run:
 
 ```bash
-pytest TwoSum/test_two_sum.py
+pytest test.py
 ```
 
 *Note: Please refer to the root `README.md` for instructions on how to set up a virtual environment and install `pytest` using `requirements.txt`.*
