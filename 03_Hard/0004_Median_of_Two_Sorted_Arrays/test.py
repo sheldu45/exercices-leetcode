@@ -63,3 +63,10 @@ def test_large_arrays():
     nums2 = list(range(1000, 2000))
     result = solution.findMedianSortedArrays(nums1, nums2)
     assert result == 999.5
+    
+def test_duplicate_elements():
+    solution = Solution()
+    nums1 = [1, 2, 2, 3, 4]
+    nums2 = [2, 3, 4, 5, 6]
+    result = solution.findMedianSortedArrays(nums1, nums2)
+    assert result == 3.0
