@@ -63,3 +63,10 @@ def test_large_arrays():
     nums2 = list(range(1000, 2000))
     result = solution.findMedianSortedArrays(nums1, nums2)
     assert result == 999.5
+
+def test_large_arrays_case_2():
+    solution = Solution()
+    nums1 = list(range(1000, 2000))
+    nums2 = list(range(1000))
+    result = solution.findMedianSortedArrays(nums1, nums2)
+    assert result == 999.5
