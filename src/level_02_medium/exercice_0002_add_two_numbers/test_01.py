@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution, ListNode
+from src.level_02_medium.exercice_0002_add_two_numbers.solution import Solution, ListNode
 
 def list_to_linkedlist(lst):
     # Helper function to convert list to linked list

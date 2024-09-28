@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution
+from src.level_03_hard.exercice_0004_median_of_two_sorted_arrays.solution import Solution
 
 def test_example_case_1():
     solution = Solution()

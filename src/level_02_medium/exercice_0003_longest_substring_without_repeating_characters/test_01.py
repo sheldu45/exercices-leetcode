@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution
+from src.level_02_medium.exercice_0003_longest_substring_without_repeating_characters.solution import Solution
 
 def test_example_case_1():
     solution = Solution()

@@ -1,5 +1,5 @@
 import pytest
-from solution import Solution
+from src.level_01_easy.exercice_0001_two_sum.solution import Solution
 
 def test_example_case():
     solution = Solution()
