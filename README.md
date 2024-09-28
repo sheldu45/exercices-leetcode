@@ -63,10 +63,10 @@ This will install all the necessary packages, including `pytest` for running tes
 To validate your solutions, you can run the test cases using `pytest`. Navigate to the directory containing the test file and run:
 
 ```bash
-pytest test.py
+pytest
 ```
 
-This command will search for all `test.py` files in the project and run the tests.
+This command will search for all `test_*.py` files in the project and run the tests.
 
 ## Explore the Solutions
 
