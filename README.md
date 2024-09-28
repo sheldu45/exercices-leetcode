@@ -60,7 +60,7 @@ This will install all the necessary packages, including `pytest` for running tes
 
 ### 4. Run the Tests
 
-To validate your solutions, you can run the test cases using `pytest`. Navigate to the directory containing the test file and run:
+To validate your solutions, you can run the test cases using `pytest`at any level of the file structure:
 
 ```bash
 pytest
